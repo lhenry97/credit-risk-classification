@@ -24,3 +24,6 @@
 The model has a high accruacy (99%) and performs fairly well across both classes. Class 0 (healthy loan) performs exceptionally well with 100% precision and f1-score indicating that it correcly identifies the negative cases with very few false positives. In comparison, class 1 (high-risk loan) showed a precision, recall and f1-score of 84%, 94% and 89% respectively. This indicates that while it was able to correcly identify most positive cases, there is in an increased percentage of false negatives compared to class 0. From this it can be concluded that class 0 performs better than class 1.
 Performance does depend on the problem trying to be solved. As the data analysed looks at credit risk, it is more important to a bank to be able to accurately detect whether a high-risk loan is occuring or not. This allows the bank to make the decision of whether they are willing to risk approving a loan or not. 
 As this model has a high accuracy, high precision in class 0 and fairly high precision in class 1, it can be recommended as a method for machine learning. It may be worth exploring in future though other non-linear machine learning models like decision trees or random forest to see if precision in class 1 can be increased. 
+
+## References
+The worked examples provide during module 20 of the data analytics bootcamp was used to complete this code. 
